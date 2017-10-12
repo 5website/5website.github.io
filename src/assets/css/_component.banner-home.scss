@@ -1,0 +1,29 @@
+.container-np{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+@media only screen and (min-width: 400px) {
+  div.banner--home {
+    margin-top: -200px;
+    background: url('/assets/images/banner_home/home_banner_mac.jpg') no-repeat center;
+    background-position-y: 51px;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    height: 100vh;
+    position: relative;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 399px) {
+  div.banner--home {
+    margin-top: -200px;
+    background: url('/assets/images/banner_home/home_banner_mac_mobil.jpg') no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    height: 100vh;
+    position: relative;
+  }
+}

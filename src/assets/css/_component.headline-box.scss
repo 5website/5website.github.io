@@ -1,0 +1,51 @@
+.img-right {
+    float:right;
+}
+
+.white {
+    color:white;
+}
+
+.bold {
+    font-weight: 500;
+}
+
+.teaser_background_title {
+    font-size: 25px;
+    padding: 10px 15px 10px 15px;
+    font-weight: 400;
+}
+
+@media only screen and (min-width: 902px) {
+  .teaser_background_title {
+    font-size: 50px;
+    padding: 10px 45px 10px 45px;
+    margin: 0px;
+    font-weight: 400;
+  }
+}
+
+.teaser-title-bg {
+  background: #006c89;
+  opacity: 0.8;
+  position: absolute;
+  right: 0;
+  margin: 0px; 
+}
+
+@media only screen and (min-width: 735px) and (orientation: landscape){
+  .teaser-title-bg {
+    background: #006c89;
+    opacity: 0.8;
+    right: 0;
+    bottom: 115px;
+  }
+}
+
+@media only screen and (orientation: portrait){
+  .teaser-title-bg {
+    background: #006c89;
+    opacity: 0.8;
+    margin-top: -23px;
+  }
+}

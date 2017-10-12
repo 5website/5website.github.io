@@ -1,0 +1,212 @@
+@import "component.variablen.scss";
+
+div.projects {
+  border-bottom: 1px solid #cccccc;
+}
+
+.home-container-padding { 
+  padding: 20px;
+}
+
+.keyvisual-logo__margin {
+  margin: auto;
+}
+
+.padding-vertical--subheadlines {
+ padding-left: 20px;
+ padding-right: 20px;
+}
+
+.padding-vertical--running-text {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.padding-vertical--ul {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.padding-top--aboutus {
+  padding-top: 36px;
+}
+
+.pt10 {
+  padding-top: 10px;
+}
+
+.pt20 {
+  padding-top: 20px;
+}
+
+.pt30 {
+  padding-top: 30px;
+}
+
+.pt40 { 
+  padding-top: 40px;
+}
+
+.pb15 { 
+  padding-top:15px;
+  padding-bottom:15px;
+}
+
+.pb20 {
+  padding-bottom: 20px;
+}
+
+.pb30 {
+  padding-bottom: 30px;
+}
+
+.pb40 { 
+  padding-bottom: 40px;
+}
+
+.pb90 {
+  padding-bottom: 90px;
+}
+
+.ptb30 {
+  padding: 30px 0;
+}
+
+.np {
+  padding: 0;
+}
+
+.nm {
+  margin: 0;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-padding-left {
+  padding-left: 5px;
+}
+
+.unsortet-list-margin-left {
+  margin-left: 70px;
+}
+
+.ul--expertise {
+  text-align: left;
+}
+
+.running-text-center {
+  display: inline-block;
+  text-align: left;
+}
+
+@media (min-width: $screen-md-min) {
+  div.definition-border-right {
+    border-right: 1px solid #bababa;
+    padding-bottom: 50px;
+  }
+  div.definition-border-left {
+    border-left: 1px solid #bababa;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: $screen-xs-max) {
+  div.definition-border-bottom {
+    border-bottom: 1px solid #bababa;
+    padding-bottom: 50px;
+  }
+}
+
+.thin-border {
+  border-bottom: 1px solid #cccccc;
+}
+
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-padding { 
+  padding: 50px 0;
+}
+
+.row { 
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.carousel {
+    position: relative;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.footer-basic-centered {
+    background-color: #31455c;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    text-align: center;
+    font: 16px Ubuntu, sans-serif;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.container-nm { 
+    margin: 0;
+}
+
+.footer-basic-centered .footer-company-motto {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+}
+
+.footer-basic-centered .footer-links a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-basic-centered .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer-basic-centered {
+    background-color: #31455c;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    text-align: center;
+    font: 16px Ubuntu, sans-serif;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.blue-gray-gradient {
+    background: #eef1f3;
+    background: -moz-linear-gradient(top, #eef1f3 80%, #ffffff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eef1f3), color-stop(100%, #ffffff));
+    background: -webkit-linear-gradient(top, #eef1f3 80%, #ffffff 100%);
+    background: -o-linear-gradient(top, #eef1f3 80%, #ffffff 100%);
+    background: -ms-linear-gradient(top, #eef1f3 80%, #ffffff 100%);
+    background: linear-gradient(to bottom, #eef1f3 80%, #ffffff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eef1f3', endColorstr='#ffffff', GradientType=0);
+}
+
+.bg-gray {
+  background: #eef1f3!important;
+}
+

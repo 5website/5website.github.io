@@ -1,0 +1,33 @@
+img.polaroid {
+    border-radius: 3px;
+    padding: 5px;
+    border: 1px solid #b2b2b2;
+    background-color: white;
+}
+
+.mw85 { 
+    margin: 0 auto;
+    max-width: 85%;
+}
+
+@media (min-width: $screen-md-max) {
+  .philosophie-image {
+    background: url(/assets/images/home-site/aboutus_background.png) no-repeat;
+    background-position: left top;
+    padding-bottom: 60px;
+  }
+}
+
+.member-teaser-image {
+width: 260px;
+height: auto;
+overflow: hidden;
+border-radius: 300px;
+}
+
+.avatar-big {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+

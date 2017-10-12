@@ -1,0 +1,98 @@
+.navbar-default {
+  margin: 0;
+}
+
+.navbar-brand {
+  float: left;
+  height: 50px;
+  padding: 12px 0;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.navbar a {
+  text-transform: uppercase;
+  text-decoration: none;
+  text-decoration-line: none;
+  text-decoration-style: initial;
+}
+
+.logo_padding{
+  padding-left:20px;
+}
+
+.nav_padding{
+  padding-right: 20px;
+}
+
+.navbar {
+  background-color: #efefef;
+}
+
+ul.nav,
+ul.navbar-nav li a {
+  text-transform: uppercase;
+  color: black;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+ul.navbar-nav>li.active {
+  font-weight: bold;
+}
+
+div.navbar {
+  margin-bottom: 0;
+}
+
+a.navbar-brand {
+  margin-left: 20px;
+}
+
+ul.navbar-nav>li {
+  @media(max-width: $screen-xs-max){
+    width:100%;
+  }
+}
+
+.navbarxsbg{
+  @media(max-width: $screen-xs-max){
+    background-color: #cccccc;
+  }
+}
+
+.navbarborderxs{
+  @media(max-width: $screen-xs-max){
+    border-bottom: 1px solid #cccccc;
+  }
+}
+
+.navbar-right .dropdown-menu {
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+  background-color: #59aadf;
+  color: white;
+}
+
+.dropdown-menu>li>a {
+  line-height: 2;
+  font-size: 15px;
+}
+
+.nav-tabs {
+  border: 0px;
+}
+
+.nav_padding {
+  padding-right: 20px;
+}
+
+.navbar-padding {
+  padding-top: 51px;
+}
+

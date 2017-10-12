@@ -1,0 +1,5 @@
+// There's an outline around employee picture in some browsers after one has
+// looked at their profile popup
+a:focus {
+  outline: none;
+}

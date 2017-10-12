@@ -1,0 +1,39 @@
+/* Viewports: monitors and tablets (horizonzal) */
+@media only screen and (min-width: 737px) and (orientation: landscape) {
+  div.banner-aboutus {
+    margin-top: -200px;
+    background: url('/assets/images/banner_aboutus/aboutus_banner.jpg') no-repeat center;
+    background-position-y: 51px;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    height: 100vh;
+    position: relative;
+  }
+}
+
+/* Viewport: smartphones (horizontal) */
+@media only screen and (max-width: 736px) and (orientation: landscape) {
+  div.banner-aboutus {
+    background: url('/assets/images/banner_aboutus/aboutus_banner_mobil.jpg') no-repeat center center scroll;
+    padding: 150px 0;
+  }
+}
+
+/* Viewport: smartphones (vertical) */
+@media only screen and (orientation: portrait) {
+  div.banner-aboutus {
+    background: url('/assets/images/banner_aboutus/aboutus_banner_mobil.jpg') no-repeat center center scroll;
+    padding: 150px 0;
+  }
+}
+
+/* Viewport: tablets and phablets (vertical) */
+@media only screen and (min-width: 767px) and (orientation: portrait) {
+  div.banner-aboutus {
+    background: url('/assets/images/banner_aboutus/aboutus_banner.jpg') no-repeat center;
+    padding: 150px 0;
+    background-size: cover;
+    width: 100%; 
+  }
+}

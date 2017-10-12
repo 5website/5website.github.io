@@ -1,0 +1,31 @@
+@import "component.variablen.scss";
+
+body {
+  font-family: Ubuntu, sans-serif;
+}
+
+h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 1.3;
+}
+
+.gray {
+    color: #7d8b8c;
+}
+
+.gray-expertise {
+  color: #7d8b8c;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.h4 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}

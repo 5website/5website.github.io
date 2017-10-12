@@ -1,0 +1,102 @@
+---
+layout: layout.html
+title: "aboutus"
+---
+
+<div class="banner-aboutus">
+</div>
+
+<div class="container-fluid padding-top--aboutus pb40 thin-border">
+  <div class="container">
+    <h5 class="text-center gray np nm"> 5Minds versteht sich nicht nur als Problemlöser, sondern als Vordenker für Software&shy;entwicklungs&shy;prozesse. Wir gehen immer
+      noch einen Schritt weiter, denn unser persönliches Engagement und unsere Leidenschaft für das, was wir tun, machen
+      uns erfolgreich.
+      <br>
+      <br> Wir blicken für Sie über den Tellerrand und entwickeln maßgeschneiderte IT-Lösungen. Dies ist unsere Grundhaltung,
+      die unser ganzes Handeln prägt und mit der wir leidenschaftlich für unsere Kunden im Einsatz sind.&nbsp; So erreichen
+      unsere Kunden Ihre Ziele und können zukünftigen Anforderungen gelassen entgegenblicken.&nbsp;</h5>
+  </div>
+</div>
+
+<div class="container-fluid blue-gray-gradient">
+  <div class="container container-padding">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="blue text-center nm np team-headline-margin">Unser Team</h1>
+      </div>
+    </div>
+
+    <div class="container pt40 ">
+      <div class="row no-gutters">
+
+          {{#each employees}}
+          <div class="pb40 col-md-3 col-lg-3 col-xs-6 col-sm-6 visible-lg visible-sm visible-md">
+            <a href="#" data-toggle="modal" data-target="#{{getEmployeeModalId this}}">
+              <img src="{{getEmployeeTeaserImage this}}"class="img-responsive member-teaser-image" alt="5MindsMitarbeiter" />
+            </a>
+          </div>
+
+          <div id="{{getEmployeeModalId this}}" class="modal fade open" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <button class="close employee__close-modal glyphicon glyphicon-remove" data-dismiss="modal" aria-hidden="true"></button>
+                <div class="employee">
+                  {{{renderTeamMember this.namespace}}}
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="visible-xs">
+            <div class="employee">
+              {{{renderTeamMember this.namespace}}}
+            </div>
+          </div>
+          <div class="col-xs-12 visible-xs">
+            <p></p>
+          </div>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-gray container-padding">
+  <div class="container">
+    <h1 class="blue text-center">Partner</h1>
+    <div class="row">
+      <div class="col-md-3">
+        <img src="/assets/images/about_us/partner_it_visions.png" class="avatar-big">
+      </div>
+      <div class="col-md-9">
+        </br>
+        <p>Unsere Schwestergesellschaft <a href="http://www.it-visions.de/" target="blank">www.IT-Visions.de</a> unter der Leitung
+          unseres Gesellschafters Dr. Holger Schwichtenberg bietet Ihnen mit den bekanntesten deutschen Experten ergänzende
+          Leistungen rund um Softwareentwicklung und IT-Infrastruktur.
+          <br>
+        </p>
+        <p>Ausschnitt aus dem Leistungsspektrum unserer Schwestergesellschaft:
+          <ul>
+            <li>Strategische und technische Beratung</li>
+            <li>Konzepte, Machbarkeitsstudien und Reviews</li>
+            <li>Coaching bei Entwicklungsprojekten</li>
+            <li>Technischer Support vor Ort und via Telefon, E-Mail oder Web-Konferenz</li>
+            <li>Individuell auf Ihre Vorkenntnisse und Ziele zugeschnittene technische Vor--Ort-Schulungen</li>
+            <li>Öffentliche Seminare und Workshops (in Kooperation mit dem Heise-Verlag)</li>
+          </ul>
+          <p>Konferenz- und Firmenvorträge</p>
+          <ul>
+            <li>Zeitschriftenartikel und Fachbücher</li>
+            <li>Informieren Sie sich doch gleich über das gesamte Angebot auf der Webseite von&nbsp;
+              <a href="http://www.IT-Visions.de" target="blank">www.IT-Visions.de</a>.</li>
+          </ul>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="refresh">
+
+</div>
+

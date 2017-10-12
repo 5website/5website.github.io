@@ -1,0 +1,54 @@
+ body {
+  font-family: Ubuntu, sans-serif;
+}
+
+p {
+    font-size: medium;
+    line-height: 1.42857;
+    margin: 0 0 10px;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.dtm-font {
+  margin: auto;
+  text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.credential-list-item {
+    list-style: disc;
+    font-weight: bold;
+    line-height: 1.8em;
+}
+
+.list-large-fontsize {
+  font-size: 16px !important;
+}
+
+.footer-basic-centered .footer-links {
+    list-style: none;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 35px 0 23px;
+    margin: 0;
+    font-weight: lighter;
+}
+
+.orange {
+    color: #ffa500;
+}
+
+.modal-employee-description {
+    margin: 0;
+    font-size: inherit;
+}

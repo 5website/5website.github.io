@@ -1,0 +1,27 @@
+@import "component.variablen.scss";
+
+.employee p {
+  padding-top: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.employee h2 {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;  
+}
+
+.employee h5 {
+  margin-left: 10px;
+}
+
+.employee img {
+  max-width: 100%;
+}
+
+.employee__close-modal {
+  margin: 10px;
+}
