@@ -19,8 +19,25 @@ Unser Unternehmen braucht eine Homepage.
 ### Setup
 
 ```shell
-$ npm install
-$ npm run build
+$ make install
+$ make
+```
+
+
+## Wie kann ich das Projekt benutzen?
+
+
+### Benutzung
+
+```shell
+$ make
+```
+
+
+### Deployment
+
+```shell
+$ make deploy
 ```
 
 ## Wen kann ich intern auf das Projekt ansprechen?

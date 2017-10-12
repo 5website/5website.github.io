@@ -20,9 +20,7 @@
     "showdown": "^1.7.2"
   },
   "scripts": {
-    "build": "node metalsmith.js",
-    "build-prod": "BUILD_DIR=./../master node metalsmith.js",
-    "start": "npm run build",
+    "start": "node metalsmith.js",
     "serve": "metalsmith-start"
   },
   "devDependencies": {
